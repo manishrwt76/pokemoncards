@@ -1,0 +1,62 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.pokemon{
+    height: 300px;
+    width: 240px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+      overflow: hidden;
+      border-radius: 10px;
+
+}
+#one{
+
+    z-index: 13;
+    transform: translate(-50%, -50%) rotate(0deg);
+
+}
+#two{
+   z-index:9 ;
+   transform: translate(-50%, -50%) rotate(-7deg);
+}
+#three{
+     z-index:7 ;
+     transform: translate(-50%, -50%) rotate(-14deg);
+
+}
+#four{
+    z-index:5; 
+     transform: translate(-50%, -50%) rotate(-21deg);
+}
+img{
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+   
+}
+#one:hover{
+    z-index: 17;
+}
+#two:hover{
+    z-index: 17;
+}
+#three:hover{
+    z-index: 17;
+}
+#four:hover{
+    z-index: 17;
+    /* rotate: 0deg; */
+}
